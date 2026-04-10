@@ -1,0 +1,14 @@
+{
+  "name": "hostelhub",
+  "version": "1.0.0",
+  "description": "HostelHub - Hostel Management System",
+  "main": "fix-menu.js",
+  "scripts": {
+    "start:backend": "cd hostelhub-backend && npm start",
+    "seed": "cd hostelhub-backend && node seed.js",
+    "install:all": "npm install && cd hostelhub-backend && npm install"
+  },
+  "keywords": ["hostel", "management", "nodejs", "express", "mongodb"],
+  "author": "",
+  "license": "ISC"
+}
